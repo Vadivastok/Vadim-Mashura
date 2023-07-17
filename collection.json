@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "6218c13b-a31e-47fd-819e-9c8e8518e4e4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28443214"
+	},
+	"item": [
+		{
+			"name": "https://qauto.forstudy.space/api/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Vadim\",\r\n  \"lastName\": \"Mashura\",\r\n  \"email\": \"vadim.mashura.18@gmail.com\",\r\n  \"password\": \"Vadim22022000\",\r\n  \"repeatPassword\": \"Vadim22022000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/auth/signup",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/users/profile",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"John\",\r\n  \"lastName\": \"Dou\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/users/profile",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/users/settings",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"distanceUnits\": \"ml\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/users/settings",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"users",
+						"settings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/cars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"carBrandId\": 1,\r\n  \"carModelId\": 1,\r\n  \"mileage\": 12222\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/cars",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/cars/48639",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"carBrandId\": 1,\r\n  \"carModelId\": 1,\r\n  \"mileage\": 169000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/cars/48639",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"cars",
+						"48639"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/expenses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"carId\": 48639,\r\n  \"reportedAt\": \"2023-07-10\",\r\n  \"mileage\": 169000,\r\n  \"liters\": 11,\r\n  \"totalCost\": 1110,\r\n  \"forceMileage\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/expenses",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"expenses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/cars/48639",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/cars/48639",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"cars",
+						"48639"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://qauto.forstudy.space/api/users",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://qauto.forstudy.space/api/users",
+					"protocol": "https",
+					"host": [
+						"qauto",
+						"forstudy",
+						"space"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

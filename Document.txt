@@ -1,0 +1,4 @@
+QM8-575 проверить еще раз
+
+var jsonData = JSON.parse(responseBody);
+     postman.setEnvironmentVariable ("paramsVal", jsonData.data.id); - переменная в postman
